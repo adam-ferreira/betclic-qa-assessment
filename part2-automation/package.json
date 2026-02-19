@@ -1,0 +1,19 @@
+{
+  "name": "cjs-ts-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vinbec <v.de-caso@betclicgroup.com>",
+  "license": "MIT",
+  "scripts": {
+    "def": "codeceptjs def",
+    "build": "tsc --noEmit",
+    "test": "npx codeceptjs run --steps --verbose --grep"
+  },
+  "dependencies": {
+    "codeceptjs": "^3.5.3",
+    "codeceptjs-chai": "^2.3.2",
+    "playwright": "^1.36.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
